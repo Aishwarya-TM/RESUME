@@ -6,29 +6,93 @@
 body
 {
     margin:0px;
-    background-color:#94948e ;
+    background-color:#cbcbc3 ;
 }
 .main-section
 {
-    background-color: #f8dbff;
-    height:100%;
+    background-color: #d8eded;
+    height:auto;
     width:50vw;
     position: absolute;
-    top:8px;
+    top:0px;
     left:25%;
-    border-radius: 20px;
+    right: 25%;
+    border-radius: 50px;
 
 }
 header
 {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
-primary-tag
+.profile-picture
 {
-    font-family: "Raleway",sans-serif;
-    font-optical-sizing: auto;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+#primary-name
+{
+    font-family: "Protest Riot",sans-serif;
+    font-size: 2rem;
     font-style: normal;
+    margin-bottom:6px ;
+}
+#primary-tag
+{
+    font-optical-sizing: auto;
+    font-family: "Sarina", sans-serif;
     font-weight: 100px;
-    margin: 12px;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 2px;
+    color: rgb(226, 62, 147)
+    
+}
+#primary-tag-links
+{
+    margin-top: 2px;
+    color: rgb(226, 62, 147);
+    font-size: 1.25rem;
+}
+.sarina-regular {
+    font-family: "Sarina", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .tapestry-regular {
+    font-family: "Tapestry", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #career-objective,#mini-project,#softskills,#certification,#internship,#technical-skills
+  {
+      font-family: "Tapestry",sans-serif;
+      text-align: left;
+      font-weight: bold;
+      color: rgb(16, 26, 162);
+      font-size: 1.30rem;
+  }
+  #education
+  {
+      font-family: "Tapestry",sans-serif;
+      text-align: left;
+      font-weight: bold;
+      color: rgb(16, 26, 162);
+      font-size: 1.30rem;
+    
+  }
+  #college,#school
+{
+    text-align: left;
+    font-family: "Tapestry",sans-serif;
+    font-weight: bold; 
+    color: rgb(16, 26, 162);
 }
