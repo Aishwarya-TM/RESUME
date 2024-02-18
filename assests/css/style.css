@@ -6,4 +6,29 @@
 body
 {
     margin:0px;
+    background-color:#94948e ;
+}
+.main-section
+{
+    background-color: #f8dbff;
+    height:100%;
+    width:50vw;
+    position: absolute;
+    top:8px;
+    left:25%;
+    border-radius: 20px;
+
+}
+header
+{
+    display: flex;
+    align-items: center;
+}
+primary-tag
+{
+    font-family: "Raleway",sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100px;
+    margin: 12px;
 }
